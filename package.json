@@ -2,5 +2,9 @@
   "dependencies": {
     "@tinacms/cli": "^1.5.31",
     "tinacms": "^1.5.22"
+  },
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo"
   }
 }
