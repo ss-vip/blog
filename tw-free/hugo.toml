@@ -1,3 +1,3 @@
-baseURL = 'https://tw-free.pages.dev/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'tw-free blog'
+title = 'My New Hugo Site'
