@@ -3,9 +3,12 @@ languageCode = 'zh-TW'
 title = 'Free is Great'
 theme = 'hugo-clarity'
 
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "<i class='fa fa-at'></i> About"
-    url = "/about"
-    weight = -110
+[[main]]
+  name = "Home"
+  url = /"
+  weight = -107
+
+[[main]]
+  name = "About"
+  url = "/about"
+  weight = -110
