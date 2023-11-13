@@ -1,4 +1,4 @@
 baseURL = 'https://tw-free.pages.dev/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+languageCode = 'zh-tw'
+title = 'Free is Great'
 theme = 'hugo-theme-cleanwhite'
