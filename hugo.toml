@@ -7,3 +7,7 @@ theme = 'hugo-clarity'
   main = [
     { name = "About", url = "/about" }
   ]
+
+[author]
+  name = "Hank"
+  copyright = "2023 Free is Great"
