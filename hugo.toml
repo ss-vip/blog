@@ -3,11 +3,9 @@ languageCode = 'zh-TW'
 title = 'Free is Great'
 theme = 'hugo-clarity'
 
-[menu] # 這是右上角的選單列內容
-  main = [
-    { name = "About", url = "/about" }
-  ]
-
-[author]
-  name = "Hank"
-  copyright = "2023 Free is Great"
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "<i class='fa fa-at'></i> About"
+    url = "/about"
+    weight = -110
