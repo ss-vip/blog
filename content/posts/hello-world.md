@@ -2,7 +2,6 @@
 title = 'Hello world HUGO'
 date = 2023-11-11T06:14:57Z
 draft = false
-enablePostShare = false
 +++
 
 ## 從Blogger搬家囉！

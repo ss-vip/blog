@@ -1,4 +1,10 @@
 baseURL = 'https://tw-free.pages.dev/'
-languageCode = 'zh-tw'
+languageCode = 'zh-TW'
 title = 'Free is Great'
 theme = 'hugo-clarity'
+
+[menu] # 這是右上角的選單列內容
+  main = [
+    { name = "Home", url = "/" },
+    { name = "About", url = "/about" }
+  ]
