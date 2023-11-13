@@ -3,12 +3,12 @@ languageCode = 'zh-TW'
 title = 'Free is Great'
 theme = 'hugo-clarity'
 
-[[main]]
-  name = "Home"
-  url = /"
-  weight = -107
+[params]
+    description = "蒐集網路免費簡單好用資訊"
 
-[[main]]
-  name = "About"
-  url = "/about"
-  weight = -110
+[menu]
+    [[menu.main]]
+    identifier = "About"
+    name = "About"
+    url = "/about"
+    weight = 10
