@@ -1,14 +1,59 @@
-baseURL = 'https://tw-free.pages.dev/'
-languageCode = 'zh-TW'
-title = 'Free is Great'
-theme = 'hugo-clarity'
+baseURL = '/'
+languageCode = 'en-us'
+title = 'Free is cool 😎'
+defaultContentLanguage = 'zh-tw'
+theme = 'FixIt'
+description = '蒐集網路免費簡單好用資訊'
+keywords = ['free', 'easy', '免費', '簡單']
+defaultTheme = 'auto'
+disableThemeInject = false
+externalIcon = true
 
-[params]
-    description = "蒐集網路免費簡單好用資訊"
+[params.author]
+  name = 'Administrator'
+
+[params.app]
+  svgFavicon = 'https://fixit.lruihao.cn/images/hugo.min.svg'
+
+[params.header.title]
+  typeit = true
+
+[params.footer]
+  author = false
+  copyright = false
+
+[params.githubCorner]
+  enable = true
+  permalink = 'https://github.com/tw1720'
+  title = 'My GitHub'
+  position = 'right'
+
+[params.backToTop]
+  scrollpercent = true
+
+[params.pace]
+  enable = true
+  color = 'pink'
+
+[params.page]
+  wordCount = false
+  readingTime = false
+  license = ''
+
+[params.page.share]
+  enable = false
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = 'tokyonight-day'
+    tabWidth = 2
 
 [menu]
-    [[menu.main]]
-    identifier = "About"
-    name = "About"
-    url = "/about"
-    weight = 10
+  [[menu.main]]
+    identifier = 'About'
+    name = 'About'
+    url = '/about'
