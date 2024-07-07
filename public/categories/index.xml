@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Categories - 分類 - Free is cool 😎</title>
+    <link>//localhost:1313/categories/</link>
+    <description>Categories - 分類 | Free is cool 😎</description>
+    <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</lastBuildDate><atom:link href="//localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+  <title>Free</title>
+  <link>//localhost:1313/categories/free/</link>
+  <pubDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</pubDate>
+  <author>Admin</author>
+  <guid>//localhost:1313/categories/free/</guid>
+  <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

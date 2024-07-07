@@ -10,7 +10,7 @@ disableThemeInject = false
 externalIcon = true
 
 [params.author]
-  name = 'Administrator'
+  name = 'Admin'
 
 [params.app]
   svgFavicon = 'https://fixit.lruihao.cn/images/hugo.min.svg'
