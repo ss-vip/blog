@@ -1,5 +1,5 @@
 +++
-title = '從Blogger搬家囉！'
+title = 'Hello HUGO'
 date = 2023-11-11 07:33:50
 +++
 
