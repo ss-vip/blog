@@ -1,19 +1,19 @@
 backend:
   name: github
-  repo: username/repo
+  repo: tw1720/blog
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://tw-free.pages.dev
   auth_endpoint: /api/auth
-media_folder: static/img
-public_folder: /img
+media_folder: static
+public_folder: /public
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/blog'
+    folder: 'content/posts'
     create: true
     slug: '{{slug}}'
     editor:
-      preview: false
+      preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
