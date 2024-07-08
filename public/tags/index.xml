@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Tags - 標籤 - Free is cool 😎</title>
-    <link>//localhost:1313/tags/</link>
+    <link>/tags/</link>
     <description>Tags - 標籤 | Free is cool 😎</description>
-    <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</lastBuildDate><atom:link href="//localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</lastBuildDate><atom:link href="/tags/" rel="self" type="application/rss+xml" /><item>
   <title>Adblock</title>
-  <link>//localhost:1313/tags/adblock/</link>
+  <link>/tags/adblock/</link>
   <pubDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</pubDate>
   <author>Admin</author>
-  <guid>//localhost:1313/tags/adblock/</guid>
+  <guid>/tags/adblock/</guid>
   <description><![CDATA[]]></description>
 </item>
 <item>
   <title>DNS</title>
-  <link>//localhost:1313/tags/dns/</link>
+  <link>/tags/dns/</link>
   <pubDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</pubDate>
   <author>Admin</author>
-  <guid>//localhost:1313/tags/dns/</guid>
+  <guid>/tags/dns/</guid>
   <description><![CDATA[]]></description>
 </item>
 </channel>
