@@ -4,12 +4,12 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://tw-free.pages.dev
   auth_endpoint: /api/auth
-media_folder: static
-public_folder: /public
+media_folder: static/img
+public_folder: /img
 collections:
   - name: 'blog'
     label: 'Blog'
-    folder: 'content/posts'
+    folder: 'content/blog'
     create: true
     slug: '{{slug}}'
     editor:
