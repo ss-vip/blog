@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>所有文章 - Free is cool 😎</title>
-    <link>//localhost:1313/posts/</link>
+    <link>/posts/</link>
     <description>所有文章 | Free is cool 😎</description>
-    <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</lastBuildDate><atom:link href="//localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+    <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</lastBuildDate><atom:link href="/posts/" rel="self" type="application/rss+xml" /><item>
   <title>免費且具有Adblock的DNS服務</title>
-  <link>//localhost:1313/posts/adb-dns/</link>
+  <link>/posts/adb-dns/</link>
   <pubDate>Sun, 12 Nov 2023 06:14:57 &#43;0000</pubDate>
   <author>Admin</author>
-  <guid>//localhost:1313/posts/adb-dns/</guid>
+  <guid>/posts/adb-dns/</guid>
   <description><![CDATA[Free Adblock DNS記錄一些免費並具有Adblock廣告阻擋的DNS服務，配置方式可以參考各站台的圖文說明。
 Control D 不只廣告過濾功能，也可以在FreeDNS頁面選用各種不同或混搭配置使用。
 Dnsforge
@@ -18,10 +18,10 @@ Alternate DNS]]></description>
 </item>
 <item>
   <title>Hello HUGO</title>
-  <link>//localhost:1313/posts/hello-hugo/</link>
+  <link>/posts/hello-hugo/</link>
   <pubDate>Sat, 11 Nov 2023 07:33:50 &#43;0000</pubDate>
   <author>Admin</author>
-  <guid>//localhost:1313/posts/hello-hugo/</guid>
+  <guid>/posts/hello-hugo/</guid>
   <description><![CDATA[從Blogger搬家囉！不再使用Blogger，將會逐一檢查文章的內容，陸續轉移過來存放。]]></description>
 </item>
 </channel>
