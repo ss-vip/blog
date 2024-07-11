@@ -24,15 +24,3 @@ collections:
       - { label: "Hidden", name: "hidden", widget: "boolean", default: true }
       # - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: "about"
-    label: "About"
-    files:
-      - label: "Edit About"
-        name: "config"
-        editor:
-          preview: true
-        file: "content/about.md"
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
