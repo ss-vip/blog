@@ -4,7 +4,7 @@ title = 'Free is cool 😎'
 defaultContentLanguage = 'zh-tw'
 theme = 'FixIt'
 description = '蒐集網路免費簡單好用資訊'
-keywords = ['free', 'easy', '免費', '簡單']
+keywords = ['free', 'easy', '免費', '簡單', '好用']
 defaultTheme = 'auto'
 disableThemeInject = false
 externalIcon = true
@@ -13,7 +13,7 @@ externalIcon = true
   name = 'Admin'
 
 [params.app]
-  svgFavicon = 'https://fixit.lruihao.cn/images/hugo.min.svg'
+  svgFavicon = 'https://free.is-cool.dev/favicon.ico'
 
 [params.header.title]
   typeit = true
