@@ -1,6 +1,5 @@
 +++
 title = 'About'
-date = 2023-11-10 06:14:57
 +++
 
 ## Free is cool 免費很酷！
