@@ -22,5 +22,5 @@ collections:
       - { label: 'Categories', name: 'categories', widget: 'string', required: false }
       - { label: "Tags", name: "tags", required: false }
       - { label: "Image", name: "image", widget: "image", required: false }
-      - { label: "Hidden", name: "hidden", widget: "boolean", default: false, required: false  }
-      # - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false  }
+      # - { label: "Hidden", name: "hidden", widget: "boolean", default: false, required: false  }
+      - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false  }
