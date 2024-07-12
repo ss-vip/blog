@@ -5,4 +5,5 @@ hidden: false
 draft: false
 ---
 ## Simple GoTop button
-GoTop button
+
+GoTop button :D
