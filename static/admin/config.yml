@@ -16,11 +16,11 @@ collections:
       preview: true
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
       - { label: "Description", name: "description", widget: "text", required: false }
-      - { label: "Date", name: "date", widget: "datetime", format: "Y-MM-DDThh:mm:ssZ"}
+      - {label: "Conference Start", name: "begin", widget: "date", format: "YYYY-MM-DD", required: true}
       - { label: 'Categories', name: 'categories', widget: 'string', required: false }
       - { label: "Tags", name: "tags", required: false }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Hidden", name: "hidden", widget: "boolean", default: false, required: false  }
       # - { label: "Draft", name: "draft", widget: "boolean", default: false, required: false  }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
