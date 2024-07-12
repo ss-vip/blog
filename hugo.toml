@@ -57,4 +57,4 @@ externalIcon = true
     identifier = 'About'
     name = 'About'
     url = '/about'
-    pre = '<i class="fa-regular fa-circle-info"></i>'
+    pre = '<i class="fa-solid fa-circle-info"></i>'
