@@ -1,10 +1,10 @@
 baseURL = '/'
 languageCode = 'en-us'
-title = 'Free is cool 😎'
+title = 'Free is cool 😎 '
 defaultContentLanguage = 'zh-tw'
 theme = 'FixIt'
-description = '蒐集網路免費簡單好用資訊'
-keywords = ['free', 'easy', '免費', '簡單', '好用']
+description = '免費很酷!蒐集網路免費簡單好用資訊,簡單乾淨的版面,不用很專業'
+keywords = ['free', 'cool', 'easy', '免費', '很酷', '簡單', '好用']
 defaultTheme = 'auto'
 disableThemeInject = false
 externalIcon = true
@@ -54,7 +54,17 @@ externalIcon = true
 
 [menu]
   [[menu.main]]
-    identifier = 'About'
+    name = 'Free'
+    url = '/categories/free/'
+    pre = '<i class="fa-solid fa-tag"></i>'
+    weight = 1
+  [[menu.main]]
+    name = 'Note'
+    url = '/categories/note/'
+    pre = '<i class="fa-solid fa-book"></i>'
+    weight = 2
+  [[menu.main]]
     name = 'About'
     url = '/about'
     pre = '<i class="fa-solid fa-circle-info"></i>'
+    weight = 3
