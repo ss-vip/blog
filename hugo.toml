@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://free.is-cool.dev/'
 languageCode = 'en-us'
 title = 'Free is cool 😎 '
 defaultContentLanguage = 'zh-tw'
@@ -13,7 +13,7 @@ externalIcon = true
   name = 'Admin'
 
 [params.app]
-  svgFavicon = 'https://free.is-cool.dev/favicon.ico'
+  svgFavicon = 'favicon.ico'
 
 [params.header.title]
   typeit = true

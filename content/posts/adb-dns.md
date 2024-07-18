@@ -2,7 +2,7 @@
 title: 免費且具有 Adblock 的 DNS 服務
 date: 2023-11-12T00:00:00.000
 tags: ['AdBlock', 'DNS']
-categories: ['free']
+categories: ['Free']
 draft: false
 ---
 

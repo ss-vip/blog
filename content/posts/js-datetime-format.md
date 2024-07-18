@@ -2,12 +2,13 @@
 title: JS 簡單的日期格式化
 date: 2023-11-14T00:00:00.000
 tags: ['JavaScript']
-categories: ['note']
+categories: ['Note']
 draft: false
 ---
 ## JS Date Time Format
 
 ### 日期時間的處理
+
 簡單的日期時間取得以及格式化
 
 ```JS
@@ -39,6 +40,7 @@ console.log(nowTime); // 13:55:08
 ```
 
 ### 數字與金額的處理
+
 也是常用到的格式
 
 ```JS
