@@ -13,7 +13,7 @@ externalIcon = true
   name = 'Admin'
 
 [params.app]
-  svgFavicon = 'favicon.ico'
+  svgFavicon = 'https://free.is-cool.dev/favicon.ico'
 
 [params.header.title]
   typeit = true
