@@ -1,13 +1,15 @@
 baseURL = 'https://free.is-cool.dev/'
-languageCode = 'en-us'
 title = 'Free is cool 😎 '
+languageCode = 'zh-tw'
 defaultContentLanguage = 'zh-tw'
 theme = 'FixIt'
-description = '免費很酷!蒐集網路免費簡單好用資訊,簡單乾淨的版面,不用很專業'
 keywords = ['free', 'cool', 'easy', '免費', '很酷', '簡單', '好用']
 defaultTheme = 'auto'
 disableThemeInject = false
 externalIcon = true
+
+[params]
+  description = '免費很酷!蒐集網路免費簡單好用資訊,簡單乾淨的版面,不用很專業'
 
 [params.author]
   name = 'Admin'
