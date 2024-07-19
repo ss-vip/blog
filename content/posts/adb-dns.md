@@ -6,7 +6,7 @@ categories: ['Free']
 draft: false
 ---
 
-## Free Adblock DNS
+### Free Adblock DNS
 
 記錄一些免費並具有 Adblock 廣告阻擋的DNS服務，配置方式可以參考各站台的圖文說明。
 
