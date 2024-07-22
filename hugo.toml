@@ -14,6 +14,11 @@ externalIcon = true
 [params.author]
   name = 'Admin'
 
+[params.readingProgress]
+  enable = true
+  light = 'grey'
+  dark = 'grey'
+
 [params.app]
   svgFavicon = 'https://free.is-cool.dev/favicon.ico'
 
@@ -26,12 +31,14 @@ externalIcon = true
 
 [params.githubCorner]
   enable = true
-  permalink = 'https://github.com/tw1720'
-  title = 'My GitHub'
-  position = 'right'
+  permalink = 'https://github.com/ss-vip'
+  title = 'GitHub'
 
 [params.backToTop]
   scrollpercent = true
+
+[params.cookieconsent]
+  enable = false
 
 [params.pace]
   enable = true
@@ -44,6 +51,9 @@ externalIcon = true
 
 [params.page.share]
   enable = false
+
+[params.page.code]
+  maxShownLines = 50
 
 [markup]
   [markup.highlight]
