@@ -5,6 +5,7 @@ tags: ['JavaScript']
 categories: ['Note']
 draft: false
 ---
+
 ### 顯示今天是星期幾的兩種寫法
 
 使用 switch
