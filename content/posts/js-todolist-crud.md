@@ -90,7 +90,7 @@ if (listIndex < 0) {
 
 ### Codepen 範例
 
-<iframe height="500" style="width: 100%;" scrolling="no" title="JS - Todolist" src="https://codepen.io/tw1720/embed/OJeRQMx?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+<iframe height="350" style="width: 100%;" scrolling="no" title="JS - Todolist" src="https://codepen.io/tw1720/embed/OJeRQMx?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/tw1720/pen/OJeRQMx">
   JS - Todolist</a> by Hank (<a href="https://codepen.io/tw1720">@tw1720</a>)
   on <a href="https://codepen.io">CodePen</a>.

@@ -64,6 +64,9 @@ externalIcon = true
     style = 'tokyonight-day'
     tabWidth = 2
 
+[markup.goldmark.renderer]
+  unsafe = true
+
 [menu]
   [[menu.main]]
     name = 'Free'
