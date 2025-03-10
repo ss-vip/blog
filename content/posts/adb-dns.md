@@ -17,6 +17,8 @@ draft: false
 - [NextDNS](https://nextdns.io/zht "NextDNS")
   也是有免費的客制服務，[超過](https://help.nextdns.io/t/p8hmvaw/what-happens-after-300k-queries)每月的免費請求額度上限時，將如同一般 DNS 。
 - [Dnsforge](https://dnsforge.de/ "Dnsforge")
+  穩定，但是延遲較高，些許服務會被誤判阻擋。
 - [OpenBLD.net DNS](https://openbld.net/ "OpenBLD.net DNS")
 - [Blahdns](https://blahdns.com "Blahdns")
 - [Alternate DNS](https://alternate-dns.com/ "Alternate DNS")
+- [Ahadns](https://ahadns.com/ "ahadns")
