@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: tw1720/blog
+  repo: ss-vip/blog
   branch: main # Branch to update (optional; defaults to master)
   base_url: https://free.is-cool.dev
   auth_endpoint: /api/auth
