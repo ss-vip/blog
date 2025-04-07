@@ -16,7 +16,7 @@ let todoListData = []
 
 // 編號用隨機亂數
 function newId () {
-  return ~ (Date.now() + (Math.random()*50))
+  return ~~ (Date.now() + (Math.random()*50))
 }
 ```
 
