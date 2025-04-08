@@ -7,6 +7,7 @@ keywords = ['free', 'cool', 'easy', '免費', '很酷', '簡單', '好用']
 defaultTheme = 'auto'
 disableThemeInject = false
 externalIcon = true
+ignoreLogs = ['warning-dev-version']
 
 [params]
   description = '免費很酷!蒐集網路免費簡單好用資訊,簡單乾淨的版面,不用很專業'
