@@ -10,6 +10,7 @@ Invidious 有著簡潔的網站頁面，可以透過'播放器偏好設定'頁�
 
 - [Invidious](https://inv.nadeko.net/) 此站台功能比較完整且穩定。 [站台列表](https://docs.invidious.io/instances/) 內還有很多可以選用。
 
+> [!tip]
 > Android 手機可以在瀏覽器的工具列，選擇'加到主畫面'，就可以建立捷徑快速開啟，不用安裝 APP 也能在關閉螢幕時，背景聽影片、聽音樂囉！
 
 ### 站台列表
