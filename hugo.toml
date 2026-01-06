@@ -56,6 +56,12 @@ ignoreLogs = ['warning-dev-version']
 [params.page.code]
   maxShownLines = 50
 
+[params.jsonViewer]
+  enable = true
+  expandDepth = 1
+  copyable = true
+  boxed = true
+
 [markup]
   [markup.highlight]
     codeFences = true
