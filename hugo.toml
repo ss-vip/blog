@@ -23,6 +23,13 @@ ignoreLogs = ['warning-dev-version']
   name = 'tags'
   weight = 30
 
+[outputs]
+  home = ['html', 'rss', 'archives', 'search', 'offline', 'manifest', 'link']
+  page = ['html', 'markdown']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html', 'rss']
+
 [params]
   description = '免費很酷!蒐集網路免費簡單好用資訊,簡單乾淨的版面,不用很專業'
   default_theme = 'auto'
@@ -40,7 +47,7 @@ ignoreLogs = ['warning-dev-version']
   Email = 'api@mail.ee'
 
 [params.seo]
-  # ponytail: 有預設 OG 圖後填入,例如 cover = '/images/og.png'
+  # note: 有預設 OG 圖後填入,例如 cover = '/images/og.png'
   cover = ''
 
 [params.verification]
@@ -63,6 +70,11 @@ ignoreLogs = ['warning-dev-version']
 [params.footer]
   author = false
   copyright = false
+
+[params.footer.powered]
+  enable = true
+  hugo_logo = true
+  theme_logo = true
 
 [params.github_corner]
   enable = true
@@ -91,6 +103,14 @@ ignoreLogs = ['warning-dev-version']
   expand_depth = 1
   copyable = true
   boxed = true
+
+[params.appearance]
+  # note: 系統字體優先,Noto Sans TC(CDN)僅在系統缺字時兜底
+  global_font_family = "'Segoe UI', 'Microsoft JhengHei', -apple-system, 'PingFang TC', 'Noto Sans TC', 'PingFang SC', 'Microsoft YaHei', sans-serif"
+
+[params.library.css]
+  # note: Google Fonts 以 unicode-range 分包,只下載用到的字形子集
+  fonts = 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap'
 
 [markup]
   [markup.highlight]
