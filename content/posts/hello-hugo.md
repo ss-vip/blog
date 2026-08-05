@@ -1,6 +1,6 @@
 ---
 title: Hello HUGO
-date: 2023-11-11T00:00:00.000
+date: 2023-11-11T00:00:00+0800
 draft: false
 ---
 

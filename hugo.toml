@@ -1,27 +1,61 @@
 baseURL = 'https://free.is-cool.dev/'
-title = 'Free is cool 😎 '
+title = 'Free is cool 😎'
 languageCode = 'zh-tw'
 defaultContentLanguage = 'zh-tw'
 theme = 'FixIt'
 keywords = ['free', 'cool', 'easy', '免費', '很酷', '簡單', '好用']
-defaultTheme = 'auto'
-disableThemeInject = false
-externalIcon = true
 ignoreLogs = ['warning-dev-version']
+
+[sitemap]
+  changefreq = 'weekly'
+  priority = 0.5
+
+[related]
+  includeNewer = true
+  threshold = 60
+  toLower = true
+
+[[related.indices]]
+  name = 'categories'
+  weight = 60
+
+[[related.indices]]
+  name = 'tags'
+  weight = 30
 
 [params]
   description = '免費很酷!蒐集網路免費簡單好用資訊,簡單乾淨的版面,不用很專業'
+  default_theme = 'auto'
+  word_count = false
+  reading_time = false
+  license = ''
 
 [params.author]
   name = 'Admin'
+  link = 'https://free.is-cool.dev/about'
+  email = 'api@mail.ee'
 
-[params.readingProgress]
+[params.social]
+  GitHub = 'ss-vip'
+  Email = 'api@mail.ee'
+
+[params.seo]
+  # ponytail: 有預設 OG 圖後填入,例如 cover = '/images/og.png'
+  cover = ''
+
+[params.verification]
+  google = 'google25a737ee848e6317'
+
+[params.link]
+  external_icon = true
+
+[params.reading_progress]
   enable = true
   light = 'grey'
   dark = 'grey'
 
 [params.app]
-  svgFavicon = 'https://free.is-cool.dev/favicon.ico'
+  svg_favicon = '/favicon.ico'
 
 [params.header.title]
   typeit = true
@@ -30,12 +64,13 @@ ignoreLogs = ['warning-dev-version']
   author = false
   copyright = false
 
-[params.githubCorner]
+[params.github_corner]
   enable = true
   permalink = 'https://github.com/ss-vip'
   title = 'GitHub'
 
-[params.backToTop]
+[params.back_to_top]
+  enable = true
   scrollpercent = true
 
 [params.cookieconsent]
@@ -45,20 +80,15 @@ ignoreLogs = ['warning-dev-version']
   enable = true
   color = 'pink'
 
-[params.page]
-  wordCount = false
-  readingTime = false
-  license = ''
-
-[params.page.share]
+[params.share]
   enable = false
 
-[params.page.code]
-  maxShownLines = 50
+[params.codeblock]
+  max_shown_lines = 50
 
-[params.jsonViewer]
+[params.json_viewer]
   enable = true
-  expandDepth = 1
+  expand_depth = 1
   copyable = true
   boxed = true
 
